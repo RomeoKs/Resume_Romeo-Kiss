@@ -422,23 +422,8 @@ h4 {
 	grid-template-columns: 47% 47%;
 	grid-column-gap: 6%;
 }
-.top-skill-progress {
-	display: flex;
-	align-items: center;
-    justify-content: space-around;
-    margin-top: 3%;
-}
-.bottom-skill-progress {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	transform: translateY(-30%);
-}
 
-.bottom-skill-progress {
-	width: 66%;
-	margin: auto;
-}
+
 h3 {
 	text-align: center;
     margin-bottom: 0px;
@@ -505,150 +490,6 @@ h3 {
 	font-size: 12px;
 }
 /* END of progressbar  */
-
-/* START of circle progress  */
-
-.circle-wrap {
-  margin: 50px auto;
-  width: 140px;
-  height: 140px;
-  background: var(--secondary);
-  border-radius: 50%;
-}
-.circle-wrap p {
-	text-align: center;
-}
-.skill-title {
-	transform: translateY(700%);
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-    font-size: 0.7rem;
-    font-weight: 700;
-}
-.circle-wrap .circle .mask,
-.circle-wrap .circle .fill {
-    width: 140px;
-    height: 140px;
-    position: absolute;
-    border-radius: 50%;
-}
-
-.circle-wrap .circle .mask {
-    clip: rect(0px, 140px, 140px, 70px);
-}
-
-.circle-wrap .circle .mask .fill {
-    clip: rect(0px, 70px, 140px, 0px);
-    background-color: var(--green);
-}
-
-.circle-wrap .inside-circle {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: #fff;
-    line-height: 120px;
-    text-align: center;
-    margin-top: 10px;
-    margin-left: 10px;
-    position: absolute;
-    font-weight: 700;
-    font-size: 1.5em;
-    color: var(--gray-dark);
-}
-/* START of PERSONALIZED Progress for each skill  */
-/*________________________________________________*/
-            /*Creativity*/
-
-.skill-progress1 .circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-    animation: fill1 ease-in-out 3s;
-    transform: rotate(162deg);
-}
-
-@keyframes fill1 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(162deg);
-    }
-}
-/* START of PERSONALIZED Progress for each skill  */
-/*________________________________________________*/
-            /*Teamwork*/
-            
-.skill-progress2 .circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-    animation: fill2 ease-in-out 3s;
-    transform: rotate(144deg);
-}
-
-@keyframes fill2 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(144deg);
-    }
-}
-
-/* START of PERSONALIZED Progress for each skill  */
-/*________________________________________________*/
-            /*Problem solving*/
-            
-.skill-progress3 .circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-    animation: fill3 ease-in-out 3s;
-    transform: rotate(153deg);
-}
-
-@keyframes fill3 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(153deg);
-    }
-}
-
-/* START of PERSONALIZED Progress for each skill  */
-/*________________________________________________*/
-            /*Management Skills*/
-            
-.skill-progress4 .circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-    animation: fill4 ease-in-out 3s;
-    transform: rotate(135deg);
-}
-
-@keyframes fill4 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(135deg);
-    }
-}
-
-/* START of PERSONALIZED Progress for each skill  */
-/*________________________________________________*/
-            /*Willigness to learn*/
-            
-.skill-progress5 .circle-wrap .circle .mask.full,
-.circle-wrap .circle .fill {
-    animation: fill5 ease-in-out 3s;
-    transform: rotate(162deg);
-}
-
-@keyframes fill5 {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(162deg);
-    }
-}
 
 /* 		===================
 			 Experience
@@ -809,10 +650,8 @@ img.cristina  {
     box-sizing: border-box;
 }
 .contact_grid {
-    display: grid;
-    grid-template-columns: 47% 47%;
-    column-gap: 6%;
-    box-sizing: border-box;
+    width: 60%;
+    margin: auto;
 }
 
 input[type=text], input[type=email], 
@@ -902,68 +741,6 @@ form {
     color: var(--pink);
     margin-left: 3px;
 }
-.second_contact a:hover {
-    color: var(--green);
-}
-.social_hover:hover {
-    transform: scale(120%);
-}
 
-.second_contact a{
-	text-decoration: none;
-	font-size: 14px;
-	font-family: 'Roboto', sans-serif;
-	color: var(--gray-dark);
-	font-weight: 300;
-}
-.second_contact {
-    margin: 0px auto 0px auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-size: 2rem;
-    padding: 0px;
 
-}
-
-.contact_info2 ul li .fas {
-    margin-right: 15px;
-}
-.contact_info2 h4 {
-    padding: 0px;
-    margin: 0px;
-    line-height: 1;
-    text-decoration: underline;
-    opacity: 0.75;
-}
-.contact_info2 li {
-    padding: 0px;
-    margin: 0px;
-    line-height: 1;
-}
-.contact_info2 {
-    width: 100%;
-    /*display: grid;
-    grid-template-rows: auto;
-    row-gap: 10px;*/
-    background-color: var(--white);
-    border-radius: 10px;
-    padding: 5%;
-    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
-    box-shadow: 0px 10px 20px 4px #00000015;
-}
-.second_social {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    margin-bottom: 10px;
-}
-iframe {
-    width: 100%;
-    height: 35vh;
-    border: 2px solid var(--white);
-    border-radius: 10px;
-    box-sizing: border-box;
-}
 }
