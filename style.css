@@ -45,13 +45,10 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-
+/* || General styles*/
 
 body {
-	margin: 0px;
-	padding: 0px;
     font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
     background-color: var(--gray-light);
 }
 
