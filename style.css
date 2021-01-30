@@ -66,7 +66,37 @@ html {
 }
 html:focus-within {
     scroll-behavior: smooth;
-  }
+}
+h1 {
+	font-size: 60px;
+	color: var(--gray-dark);
+}
+h2 {
+	font-size: 26px;
+	color: var(--gray-dark);
+}
+h3 {
+	text-align: center;
+    margin-bottom: 0px;
+    font-size: 32px;
+    color: var(--gray-dark);
+}
+h4 {
+	font-size: 1.5rem;
+	color: var(--gray-dark);
+	text-align: center;
+}
+h5 {
+    color: var(--gray-dark);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+h6 {
+    color: var(--green);
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
 /* 		===================
 			  DESKTOP2 1366px
         ===================
@@ -84,7 +114,6 @@ html:focus-within {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
     font-size: 18px;
-    
     border-radius: 5px;
     
 }
@@ -137,7 +166,6 @@ header:hover {
     display: grid;
     grid-template-columns: auto 1fr;
     margin: auto;
-    margin-top: 10%;
     justify-items: end;
 }
 .who {
@@ -153,17 +181,6 @@ header:hover {
 	-webkit-box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
 	-moz-box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
     box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
-}
-
-h1 {
-	font-size: 60px;
-	color: var(--gray-dark);
-	margin:30px 0px 10px 0px;
-}
-h2 {
-	font-size: 26px;
-	color: var(--gray-dark);
-	margin:20px 0px 10px 0px;
 }
 
 .hello {
@@ -263,12 +280,12 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6%;
-    margin: 12% auto 10% auto;
+    margin:auto;
 }
 .ab_image img{
 	width: 100%;
 }
-.about_me h3 {
+/*.about_me h3 {
 	font-size: 32px;
 	color: var(--gray-dark);
     font-weight: 500;
@@ -276,7 +293,7 @@ h2 {
     padding: 0px;
     margin-top: 0px;
     margin-bottom: 30px;
-}
+}*/
 
 .about_me a {
 	text-decoration: none;
@@ -287,7 +304,6 @@ h2 {
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: #343a40;
-	line-height: 200%;
 }
 .ab_ul1 li {
 	font-size: 14px;
@@ -299,7 +315,6 @@ h2 {
 	border: 1px solid var(--green);
 	border-radius: 5px;
 	margin-right: 10px;
-    margin-top: 10px;
     background-color: var(--white);
 }
 .learn {
@@ -308,8 +323,6 @@ h2 {
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: #343a40;
-    line-height: 200%;
-    margin-top: 20px;
 }
 .learn span {
     text-decoration: underline;
@@ -323,57 +336,33 @@ h2 {
 	padding: 4px 6px;
 	border-radius: 5px;
 	margin-right: 10px;
-    margin-top: 10px;
     background-color: var(--white);
     border: 1px solid var(--blue);
 }
-.ab_ul1, .ab_ul2 {
-    margin-top: 0px;
-}
 
-/*button a {
-	background-color: var(--green);
-	padding: 10px 30px;
-	border-radius: 20px;
-    font-weight: bold;
-    text-align: center;
-}
-button {
-    margin-top: 50px;
-    border: none;
-    overflow: visible;
-    background: transparent;
-}
-.fa-file-download:before {
-    content: "\f56d";
-	margin-left: 10px;
-}
-button a:hover {
-	box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.45);
-	background-color: var(--gray-dark);	
-}*/
+
+
 /* 		===================
 			 WHAT I DO
         ===================
 */
 .what {
 	width: 80%;
-	margin: 16% auto 0px auto;
+	margin: auto;
 }
 .what_grid {
 	display: grid;
 	grid-template-columns: 47% 47%;
     grid-column-gap: 6%;
-    margin-bottom: 10%;
 }
-h3.what_title {
+/*h3.what_title {
 	margin-bottom: 70px;
     font-size: 32px;
 	color: var(--gray-dark);
     font-weight: 500;
     text-align: center;
     padding: 0px;
-}
+}*/
 .webdev, .seo {
     padding: 8% 13%;
     border-radius: 10px;
@@ -393,11 +382,6 @@ h3.what_title {
 .webdev img {
     margin-right: 6%;
 }
-h4 {
-	font-size: 1.5rem;
-	color: var(--gray-dark);
-	text-align: center;
-}
 
 .what li {
 	font-size: 14px;
@@ -416,26 +400,16 @@ h4 {
         ===================
 */
 .skills {
-	width: 80%;
+	width: 47%;
 	margin: auto;
-	display: grid;
-	grid-template-columns: 47% 47%;
-	grid-column-gap: 6%;
 }
 
-
-h3 {
-	text-align: center;
-    margin-bottom: 0px;
-    font-size: 32px;
-    color: var(--gray-dark);
-}
 
 /* START of progressbar  */
 
-.skills_wrap {
+/*.skills_wrap {
 	margin-top: 55px;
-}
+}*/
 .info {
     margin-bottom: 8px;
     font-weight: 700;
@@ -443,7 +417,6 @@ h3 {
 }
 .h_skill {
 	position: relative;
-	margin-bottom: 30px;
 }
 .progress_bar {
 	width: 100%;
@@ -497,7 +470,6 @@ h3 {
 */
 #experience {
     width: 100%;
-    margin-bottom: 5%;
 }
 .experience {
     width: 80%;
@@ -526,19 +498,7 @@ img.cristina  {
     padding: 40px 40px 10px 40px;
     line-height: 1.5;
 }
-.testimonial h5 {
-    margin: 0px;
-    color: var(--gray-dark);
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.testimonial h6 {
-    margin: 0px;
-    color: var(--green);
-    font-size: 16px;
-    letter-spacing: 1px;
-    font-weight: normal;
-}
+
 .testimonial p {
     font-style: italic;
     text-align: left;
@@ -621,24 +581,23 @@ img.cristina  {
 .department {
     color: var(--green);
 }
-.experience h3 {
+/*.experience h3 {
     margin-bottom: 10%;
-}
+}*/
 /* 		===================
 			  Contact
         ===================
 */
 .contact {
-    width: 80%;
+    width: 47%;
     margin: auto;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     background-color: var(--gray-light);
-    margin-bottom: 50px;
 }
-.contact h3 {
+/*.contact h3 {
     margin-bottom: 5%;
-}
+}*/
 .contact_form {
     width: 100%;
     margin: auto;
@@ -649,10 +608,7 @@ img.cristina  {
     box-shadow: 0px 10px 20px 4px #00000015;
     box-sizing: border-box;
 }
-.contact_grid {
-    width: 60%;
-    margin: auto;
-}
+
 
 input[type=text], input[type=email], 
 input[type=phone], textarea {
