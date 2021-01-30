@@ -50,6 +50,7 @@ time, mark, audio, video {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--gray-light);
+    font-size: 16px;
 }
 
 li {
@@ -68,34 +69,32 @@ html:focus-within {
     scroll-behavior: smooth;
 }
 h2, h3, h4, h5, h6 {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: var(--gray-dark);
+    font-weight: 700;
+    text-align: center;
 }
 h1 {
-    font-size: 60px;
+    font-size: 3.2rem;
     font-weight: 700;
-    margin-top: 22px;
+    margin-top: 27px;
 }
 h2 {
-    font-size: 26px;
-
+    font-size: 2rem;
 }
 h3 {
 	text-align: center;
-    font-size: 32px;
+    font-size: 1.5rem;
 }
 h4 {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	text-align: center;
 }
 h5 {
-    font-size: 20px;
+    font-size: 1.1rem;
     letter-spacing: 1px;
 }
-h6 {
-    font-size: 16px;
-    letter-spacing: 1px;
-}
+
 /* 		===================
 			  DESKTOP2 1366px
         ===================
@@ -164,7 +163,7 @@ header:hover {
     width: 80%;
     display: grid;
     grid-template-columns: 47% 47%;
-    margin: 150px auto;
+    margin: 150px auto 0px auto;
     column-gap: 6%;
     justify-items: center;
 }
@@ -173,8 +172,14 @@ header:hover {
     display: grid;
     grid-template-rows: auto 5fr;
 }
+.who h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+}
 .me img {
-	width: 300px;
+    transform: translateY(-20px);
+	width: 310px;
 	border-radius: 50%;
 	border: 1.2rem solid rgba(0, 0, 0, 0.12);
 	-webkit-box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
@@ -258,9 +263,9 @@ header:hover {
 .first_contact ul{
     display: grid;
     grid-template-rows: auto 3fr;
-    row-gap: 7px;
+    row-gap: 10px;
     padding-left: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 23px;
 
 }
 
@@ -282,30 +287,26 @@ header:hover {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6%;
-    margin:auto;
+    margin:70px auto 130px auto;
 }
 .ab_image img{
 	width: 100%;
 }
-/*.about_me h3 {
-	font-size: 32px;
-	color: var(--gray-dark);
-    font-weight: 500;
-    text-align: center;
-    padding: 0px;
-    margin-top: 0px;
-    margin-bottom: 30px;
-}*/
+.ab_text {
+    margin-top: 41px;
+}
 
 .about_me a {
 	text-decoration: none;
 	color: white;
 }
 .know {
-	font-size: 14px;
+	font-size: 1rem;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #343a40;
+    color: var(--gray-dark);
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
 .ab_ul1 li {
 	font-size: 14px;
@@ -321,10 +322,13 @@ header:hover {
 }
 .learn {
     text-align: center;
-    font-size: 14px;
+    font-size: 1rem;
 	font-weight: 300;
 	letter-spacing: 0.5px;
-	color: #343a40;
+    color: var(--gray-dark);
+    line-height: var(--gray-dark);
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 .learn span {
     text-decoration: underline;
@@ -403,7 +407,7 @@ header:hover {
 */
 .skills {
 	width: 47%;
-	margin: auto;
+    margin: 140px auto 140px auto;
 }
 
 
