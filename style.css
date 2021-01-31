@@ -417,16 +417,25 @@ header:hover {
     width: 47%;
     height: 10px;
 }
+.skills h2 {
+    margin-bottom: 30px;
+}
 
 /* START of progressbar  */
 
 .info {
-    margin-bottom: 8px;
+    margin-bottom: 2px;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--gray-dark)
 }
 .h_skill {
 	position: relative;
+}
+.skills_wrap {
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    row-gap: 15px;
 }
 .progress_bar {
 	width: 100%;
