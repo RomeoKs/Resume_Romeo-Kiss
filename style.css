@@ -305,8 +305,8 @@ header:hover {
 	font-weight: 300;
 	letter-spacing: 0.5px;
     color: var(--gray-dark);
-    line-height: 1.5;
-    margin-bottom: 10px;
+    line-height: 2;
+    margin-bottom: 20px;
 }
 .ab_ul1 li {
 	font-size: 14px;
@@ -317,8 +317,9 @@ header:hover {
 	padding: 4px 6px;
 	border: 1px solid var(--green);
 	border-radius: 5px;
-	margin-right: 10px;
+	margin-right: 5px;
     background-color: var(--white);
+    margin-bottom: 5px;
 }
 .learn {
     text-align: center;
@@ -326,8 +327,8 @@ header:hover {
 	font-weight: 300;
 	letter-spacing: 0.5px;
     color: var(--gray-dark);
-    line-height: var(--gray-dark);
-    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-bottom: 20px;
     margin-top: 25px;
 }
 .learn span {
@@ -341,9 +342,10 @@ header:hover {
 	display: inline-block;
 	padding: 4px 6px;
 	border-radius: 5px;
-	margin-right: 10px;
+	margin-right: 5px;
     background-color: var(--white);
     border: 1px solid var(--blue);
+    margin-bottom: 5px;
 }
 
 
@@ -361,16 +363,8 @@ header:hover {
 	grid-template-columns: 47% 47%;
     grid-column-gap: 6%;
 }
-/*h3.what_title {
-	margin-bottom: 70px;
-    font-size: 32px;
-	color: var(--gray-dark);
-    font-weight: 500;
-    text-align: center;
-    padding: 0px;
-}*/
 .webdev, .seo {
-    padding: 8% 13%;
+    padding: 25px 40px 40px 55px;
     border-radius: 10px;
     background-color: white;
 	-webkit-box-shadow: 1px 2px 10px 4px rgba(112,112,112,1);
@@ -379,24 +373,34 @@ header:hover {
 }
 .webdev_title, .seo_title {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: flex-end;
 }
 .webdev img, .seo img {
     width: 18%;
-    margin-right: 4%;
+    margin-right: 10px;
 }
 .webdev img {
-    margin-right: 6%;
+
 }
 
 .what li {
-	font-size: 14px;
+	font-size: 1rem;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: var(--gray-dark);
 	line-height: 2;
-	text-align: justify;
-	list-style-type: circle;
+	text-align: left;
+	list-style-type: none;
+}
+.what li:before {
+    content: "\2022";
+    font-size: 1rem;
+    color: var(--green);
+    font-weight: 900;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
 }
 
 
@@ -409,13 +413,13 @@ header:hover {
 	width: 47%;
     margin: 140px auto 140px auto;
 }
-
+#skills {           /*#skills*/
+    width: 47%;
+    height: 10px;
+}
 
 /* START of progressbar  */
 
-/*.skills_wrap {
-	margin-top: 55px;
-}*/
 .info {
     margin-bottom: 8px;
     font-weight: 700;
