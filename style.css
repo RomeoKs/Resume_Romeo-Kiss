@@ -363,6 +363,9 @@ header:hover {
 	grid-template-columns: 47% 47%;
     grid-column-gap: 6%;
 }
+.what h2 {
+    margin-bottom: 40px;
+}
 .webdev, .seo {
     padding: 25px 40px 40px 55px;
     border-radius: 10px;
@@ -379,9 +382,6 @@ header:hover {
 .webdev img, .seo img {
     width: 18%;
     margin-right: 10px;
-}
-.webdev img {
-
 }
 
 .what li {
