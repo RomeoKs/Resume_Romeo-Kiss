@@ -539,13 +539,12 @@ img.cristina  {
 .suprem, .hydroscand, .rdi, .msa, .azimut, .bachelor {
     background-color: var(--light);
     border-radius:10px;
-    padding: 2%;
-    /*: 0px 1px 10px 0px rgba(0,0,0,0.2);*/
+    padding: 20px;
 	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 20px 4px #00000015;
     display: flex;
-    position: relative;
-    margin-bottom: 12%;
+    align-items: center;
+    margin-bottom: 20px;
 }
 .azimut {
     position: relative;
@@ -589,6 +588,7 @@ img.cristina  {
     margin: auto;
 }
 .company {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
