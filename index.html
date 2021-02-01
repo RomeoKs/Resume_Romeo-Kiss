@@ -30,24 +30,30 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
   <link rel="icon" href="./images/favicon.png" type="image/png" sizes="16x16">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="./script.js" defer></script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
   <body>
       <header>
           <nav>
-            <div class="menu">
-                <ul class="nav_item"  id="home">
-                    <li class="nav_link"><a href="#home">Home</a></li>
-                    <li class="nav_link"><a href="#about">About</a></li>
-                    <li class="nav_link"><a href="#skills">Skills</a></li>
-                    <li class="nav_link"><a href="#experience">Experience</a></li>
-                    <li class="nav_link"><a href="#contact">Contact</a></li>
+            <a href="#home" class="navItem"></a>
+            <div>
+                <ul class="navMenu">
+                    <li class="homeNavItem navItem"><a href="#home">Home</a></li>
+                    <li class="aboutNavItem navItem"><a href="#about">About</a></li>
+                    <li class="skillsNavItem navItem"><a href="#skills">Skills</a></li>
+                    <li class="experienceNavItem navItem"><a href="#experience">Experience</a></li>
+                    <li class="contactNavItem navItem"><a href="#contact">Contact</a></li>
                 </ul>
             </div>
           </nav>
       </header>
       <main>
-        <section class="who_wrap">
+        <section class="who_wrap" class="home" id="home">
             <div class="col_left">
                 <div class="who">
                     <div><span class="hello">Hello I'm</span></div>
@@ -66,7 +72,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="first_social" id="about">
+                    <div class="first_social">
                         <a href="https://www.linkedin.com/in/romeo-kiss-0446651b/" title="Linkedin" target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
                         <a href="https://www.freecodecamp.org/fcca0f1518b-d534-4741-ac0e-d5bbceb8e472/" title="Freecodecamp" target="_blank" aria-label="Freecodecamp"><i class="fab fa-free-code-camp"></i></a>
                         <a href="https://github.com/RomeoKs" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
@@ -80,7 +86,7 @@
                 </picture>
             </div>
         </section>
-        <section class="about_me">
+        <section class="about_me" class="about"id="about">
                 <div class="ab_image">
                     <img src="./images/about_me.png" alt="About Me">
                 </div>
@@ -111,7 +117,7 @@
                         <li>and more :)</li>
                     </ul>
                 </div>
-                <div class="skills_scroll" id="skills"></div>
+                <div class="skills_scroll"></div>
         </section>
         
         <section class="what">
@@ -148,7 +154,7 @@
 				</div>
 			</div>
         </section>
-        <section class="skills">
+        <section class="skills" class="skills">
             <div class="tech">
                 <h2>Hard skills</h2>
                     <div class="skills_wrap">
@@ -200,8 +206,8 @@
                     </div>
                 </div>
         </section>
-        <div  id=experience></div>
-        <section class="experience">
+        
+        <section class="experience" class="experience" id=experience>
             <div class="education">
                 <h2>Education</h2>
                 <div class="azimut">
@@ -274,7 +280,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact" id="contact">
+        <section class="contact" id="contact" class="contact">
             <h2>Contact</h2>
             <div class="contact_grid">
                 <div class="contact_form">
