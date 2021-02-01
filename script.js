@@ -4,8 +4,8 @@ function selectElementByClass(className) {
 const sections = [
   selectElementByClass('home'),
   selectElementByClass('about'),
-  selectElementByClass('services'),
-  selectElementByClass('downloads'),
+  selectElementByClass('skills'),
+  selectElementByClass('experience'),
   selectElementByClass('contact'),
 ];
 
