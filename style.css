@@ -130,7 +130,7 @@ h5 {
 	transition: 0.2s;
 }
 .active a{
-	border-bottom: 2px solid var(--gray-dark);
+	border-bottom: 2px solid var(--green);
 }
 header {
 	height: 68px;
