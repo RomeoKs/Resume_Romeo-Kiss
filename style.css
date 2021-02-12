@@ -161,6 +161,11 @@ header {
     height: 150px;
     background-color: transparent;
 }
+.about_space {
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+}
 .home-grid {
     width: 80%;
     display: grid;
@@ -289,13 +294,13 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 6%;
-    margin:70px auto 130px auto;
+    margin: auto;
 }
 .ab_image img{
 	width: 100%;
 }
 .ab_text {
-    margin-top: 41px;
+    margin-top: 20px;
 }
 
 .about a {
@@ -303,15 +308,14 @@ header {
 	color: white;
 }
 .know {
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
     color: var(--gray-dark);
     line-height: 2;
-    margin-bottom: 20px;
 }
 .ab_ul1 li {
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: var(--gray-dark);
@@ -330,14 +334,15 @@ header {
 	letter-spacing: 0.5px;
     color: var(--gray-dark);
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-top: 25px;
 }
 .learn span {
     text-decoration: underline;
 }
 .ab_ul2 li{
-    font-size: 14px;
+    text-align: justify;
+    font-size: 13px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: var(--gray-dark);
@@ -541,7 +546,6 @@ header {
     grid-template-columns: 70px 2fr;
     align-items: center;
     text-align: center;
-    width: 100%;
     height: 75px;
     padding-left: 20px;
     padding-right: 20px;
@@ -592,8 +596,8 @@ header {
     width: 90px;
     position: absolute;
     z-index: -1;
-    top: -35px;
-    right: 20px;
+    top: -25px;
+    right: 10px;
     opacity: 0.7;
 }
 /*.quote2 {
@@ -605,25 +609,35 @@ header {
 }*/
 .suprem img, .hydroscand img, .rdi img, .msa img {
     width: 70px;
+    height: 70px;
     border-radius:10px;
     margin-right: 22%;
 }
 .work_exp {
-    width: 100%
+    width: 100%;
 }
+.work_grid {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 53px;
+}
+
 .suprem img {
     border: 2px solid var(--opaque-green)
 }
 .suprem, .hydroscand, .rdi, .msa {
+
     background-color: var(--light);
     border-radius:10px;
     padding: 20px;
 	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 20px 4px #00000015;
-    display: flex;
+    display: grid;
+    grid-template-columns: 70px 2fr;
     align-items: center;
     text-align: center;
-    margin-bottom: 45.5px;
+    gap: 20px;
+
 }
 
 .company {
@@ -656,12 +670,12 @@ header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 .codi h4 {
-    margin-bottom: 45px;
+    margin-bottom: 20px;
     font-size: 26px;
     text-decoration: underline;
 }
