@@ -120,6 +120,9 @@ h5 {
 	width: 50%;
 	padding: 0px;
 	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .navMenu a {
 	text-decoration: none;
@@ -141,7 +144,7 @@ header {
 	-webkit-position: sticky;
 	width: 100%;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     /*webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);*/
 	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
 	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
@@ -498,32 +501,27 @@ header {
     grid-template-columns: 47% 47%;;
     gap: 6%;
 }
+.experience a:hover {
+    color: var(--green);
+}
 .experience h2 {
     margin-bottom: 35px;
 }
 .education {
     width: 100%;
 }
-.education img {
+.azimut_header img, .hubspot img, .bachelor img  {
     border-radius: 10px;
     border: 2px solid var(--opaque-green);
     width: 70px;
 }
-
-img.cristina  {
-    width: 80px;
-    margin-bottom: 10px;
-    border: 3.5px solid var(--pink);
-    border-radius: 50%;
-}
 .azimut {
     background-color: var(--light);
     border-radius:10px;
-    padding: 20px;
+    padding-top: 20px;
 	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 20px 4px #00000015;
-
-    margin-bottom: 20px;
+    margin-bottom: 45.5px;
 }
 .edu_header {
     background-color: var(--light);
@@ -536,18 +534,76 @@ img.cristina  {
     gap: 20px;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 45.5px;
 }
-.azimut_header {
+.azimut_top {
     display: grid;
     grid-template-columns: 70px 2fr;
     align-items: center;
     text-align: center;
     width: 100%;
+    height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-
-
-.work_exp img{
+.cristina img {
+    width: 60px;
+    border: 3.5px solid var(--pink);
+    border-radius: 50%;
+}
+.testimonial {
+    margin: auto;
+    position: relative;
+    background-color: var(--opaque-green);
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 20px;
+    padding: 20px 40px 40px 40px;
+    z-index: 1;
+}
+.p1 {
+    font-weight: bold;
+    line-height: 1.2;
+}
+.p2 {
+    font-size: 14px;
+    padding-top: 20px;
+    letter-spacing: 0.2px;
+    line-height: 1.8;
+}
+.cristina {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.cristina h4 {
+    margin-bottom: 0px;
+    font-size: 26px;
+}
+.cristina h5 {
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 0;
+}
+.testimonial_header {
+    margin-left: 20px;
+}
+.quote {
+    width: 90px;
+    position: absolute;
+    z-index: -1;
+    top: -35px;
+    right: 20px;
+    opacity: 0.7;
+}
+/*.quote2 {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    bottom: 120px;
+    
+}*/
+.suprem img, .hydroscand img, .rdi img, .msa img {
     width: 70px;
     border-radius:10px;
     margin-right: 22%;
@@ -566,21 +622,9 @@ img.cristina  {
     box-shadow: 0px 10px 20px 4px #00000015;
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 45.5px;
 }
-.quote {
-    position: absolute;
-    z-index: 1;
-    right: 30px;
-    bottom: 30px;
-}
-/*.quote2 {
-    position: absolute;
-    z-index: 1;
-    left: 50px;
-    bottom: 120px;
-    transform: rotate(180deg);
-}*/
 
 .company {
     width: 100%;
@@ -599,6 +643,37 @@ img.cristina  {
 }
 .department {
     color: var(--green);
+}
+.codi img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 4px #00000015;
+}
+.codi img:hover {
+    transform: scale(1.1);
+}
+.codi {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.codi h4 {
+    margin-bottom: 45px;
+    font-size: 26px;
+    text-decoration: underline;
+}
+.codi h5 {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 0;
+}
+.codi_grid {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap:10%;
 }
 /*.experience h3 {
     margin-bottom: 10%;
