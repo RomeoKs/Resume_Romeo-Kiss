@@ -48,6 +48,7 @@ time, mark, audio, video {
 a {
     text-decoration: none;
     color: black;
+    line-height: 0;
 }
 /* || General styles*/
 
@@ -515,21 +516,37 @@ img.cristina  {
     border: 3.5px solid var(--pink);
     border-radius: 50%;
 }
+.azimut {
+    background-color: var(--light);
+    border-radius:10px;
+    padding: 20px;
+	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 20px 4px #00000015;
 
-.testimonial {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+    margin-bottom: 20px;
+}
+.edu_header {
+    background-color: var(--light);
+    border-radius:10px;
+    padding: 20px;
+	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 20px 4px #00000015;
+    display: grid;
+    grid-template-columns: 70px 2fr;
+    gap: 20px;
     align-items: center;
-    padding: 40px 40px 10px 40px;
-    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.azimut_header {
+    display: grid;
+    grid-template-columns: 70px 2fr;
+    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
-.testimonial p {
-    font-style: italic;
-    text-align: left;
-    text-indent: 30px;
-}
+
 .work_exp img{
     width: 70px;
     border-radius:10px;
@@ -541,7 +558,7 @@ img.cristina  {
 .suprem img {
     border: 2px solid var(--opaque-green)
 }
-.suprem, .hydroscand, .rdi, .msa, .azimut, .bachelor, .hubspot {
+.suprem, .hydroscand, .rdi, .msa {
     background-color: var(--light);
     border-radius:10px;
     padding: 20px;
@@ -550,23 +567,6 @@ img.cristina  {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-}
-.azimut {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-.azimut_header {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    flex-direction: row;
-    width: 93%;
-    justify-content: space-between;
-}
-.azimut_top {
-    position: static;
-    width: 100%;
 }
 .quote {
     position: absolute;
@@ -581,24 +581,7 @@ img.cristina  {
     bottom: 120px;
     transform: rotate(180deg);
 }*/
-.bachelor {
-    width: auto;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-.bachelor_info, .hubspot_info {
-    text-align: center;
-}
-.bachelor_header, .hubspot_header {
-    display: flex;
-    width: 90%;
-    align-items: center;
-    justify-content: space-between;
-    margin: auto;
-}
+
 .company {
     width: 100%;
     display: flex;
