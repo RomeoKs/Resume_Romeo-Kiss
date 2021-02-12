@@ -5,7 +5,7 @@ const sections = [
   selectElementByClass('home'),
   selectElementByClass('about_space'),
   selectElementByClass('skills_space'),
-  selectElementByClass('exp_space'),
+  selectElementByClass('experience'),
   selectElementByClass('contact'),
 ];
 
@@ -20,7 +20,7 @@ const navItems = {
 const observerOptions = {
   root: null,
   rootMargin: '0px',
-  threshold: 0.2,
+  threshold: 0.6,
 };
 
 function observerCallback(entries, observer) {
