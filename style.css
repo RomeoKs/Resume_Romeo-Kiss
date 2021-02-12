@@ -4,23 +4,13 @@
     --purple: #6f42c1;
     --light-purple: #d7caf0;
     --pink: #e83e8c;
-    --red: #dc3545;
     --opaque-green: rgba(19, 201, 170, 0.3);
-    --orange: #fd7e14;
-    --yellow: #ffc107;
     --green: #0bceaf;
-    --teal: #20c997;
     --cyan: #17a2b8;
     --white: #fff;
     --gray-light: #d7d6da;
     --gray-medium: #a4a4a7;
     --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
     --light: #f8f9fa;
 }
 /* || CSS reset */
