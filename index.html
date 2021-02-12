@@ -34,7 +34,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
   <body>
-      <header>
+      <header>                              <!-- NAVIGATION MENU-->
           <nav>
             <a href="#home" class="navItem"></a>
             <div>
@@ -48,38 +48,41 @@
             </div>
           </nav>
       </header>
-      <main>
+      <main>                              <!-- MAIN CONTENT-->
         <section class="home" id="home">
-            <div class="col_left">
-                <div class="who">
-                    <div><span class="hello">Hello I'm</span></div>
-                    <h1>Romeo Kiss</h1>
-                    <h2>Front End Developer</h2>
-                    <div class="first_contact">
-                        <ul>
-                            <li>					
-                                <a href="mailto:kiss.romeo.richard@gmail.com" class="first_email" aria-label="Email"><i class="fas fa-envelope"></i>kiss.romeo.richard@gmail.com</a>
-                            </li>                           
-                            <li>						
-                                <a href="https://goo.gl/maps/JnR5PC6mcBXF9mMG6"><i class="fas fa-map-marker-alt"></i>Cluj-Napoca, ROMANIA</a>
-                            </li>
-                            <li>						
-                                <a href="tel:+40-774454301" aria-label="Phone"><i class="fas fa-phone-alt"></i>+40 774.454.301</a>
-                            </li>
-                        </ul>
+            <div class="home_space"></div>
+            <div class="home-grid">
+                <div class="col_left">
+                    <div class="who">
+                        <div><span class="hello">Hello I'm</span></div>
+                        <h1>Romeo Kiss</h1>
+                        <h2>Front End Developer</h2>
+                        <div class="first_contact">
+                            <ul>
+                                <li>					
+                                    <a href="mailto:kiss.romeo.richard@gmail.com" class="first_email" aria-label="Email"><i class="fas fa-envelope"></i>kiss.romeo.richard@gmail.com</a>
+                                </li>                           
+                                <li>						
+                                    <a href="https://goo.gl/maps/JnR5PC6mcBXF9mMG6"><i class="fas fa-map-marker-alt"></i>Cluj-Napoca, ROMANIA</a>
+                                </li>
+                                <li>						
+                                    <a href="tel:+40-774454301" aria-label="Phone"><i class="fas fa-phone-alt"></i>+40 774.454.301</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="first_social">
+                            <a href="https://www.linkedin.com/in/romeo-kiss-0446651b/" title="Linkedin" target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.freecodecamp.org/fcca0f1518b-d534-4741-ac0e-d5bbceb8e472/" title="Freecodecamp" target="_blank" aria-label="Freecodecamp"><i class="fab fa-free-code-camp"></i></a>
+                            <a href="https://github.com/RomeoKs" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.frontendmentor.io/profile/RomeoKs" title="FrontEnd Mentor" target="_blank" aria-label="Frontend Mentor"><i class="fas fa-code"></i></a>
+                        </div>	
                     </div>
-                    <div class="first_social">
-                        <a href="https://www.linkedin.com/in/romeo-kiss-0446651b/" title="Linkedin" target="_blank" aria-label="Linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://www.freecodecamp.org/fcca0f1518b-d534-4741-ac0e-d5bbceb8e472/" title="Freecodecamp" target="_blank" aria-label="Freecodecamp"><i class="fab fa-free-code-camp"></i></a>
-                        <a href="https://github.com/RomeoKs" target="_blank" aria-label="GitHub" title="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.frontendmentor.io/profile/RomeoKs" title="FrontEnd Mentor" target="_blank" aria-label="Frontend Mentor"><i class="fas fa-code"></i></a>
-                    </div>	
                 </div>
-            </div>
-            <div class="col_right">
-                <picture class="me">
-                    <img src="./images/Romeo_Kiss.png" alt="Romeo Kiss">
-                </picture>
+                <div class="col_right">
+                    <picture class="me">
+                        <img src="./images/Romeo_Kiss.png" alt="Romeo Kiss">
+                    </picture>
+                </div>
             </div>
         </section>
         <section class="about" id="about">
@@ -209,24 +212,35 @@
             <div class="education">
                 <h2>Education</h2>
                 <div class="azimut">
-                    <svg class="quote" width="104" height="102" xmlns="http://www.w3.org/2000/svg"><path d="M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z" fill=" rgba(19, 201, 170, 0.15)" fill-rule="nonzero"/></svg>
-                    <div class="azimut_header">
-                    <img src="./images/logo-azimut.png" alt="Azimut Vision">
-                        <div class="azimut_info">
-                            <div class="year">2020-2021 Cluj-Napoca - <a href="https://azimutvision.ro/course/program-pregatire-front-end-developer-cluj-napoca-acreditat/" target="_blank">Azimut Vision</a></div>
-                            <div class="job">FrontEnd Web Developer Course:</div>
-                            <div class="learned">HTML, CSS and JavaScript</div>
+                    <div class="azimut_top">
+                        <svg class="quote" width="104" height="102" xmlns="http://www.w3.org/2000/svg"><path d="M104 102V59.727H84.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C95.01 25.86 98.909 22.257 104 19.375V0c-9.758 4.27-17.712 9.874-23.864 16.813-6.151 6.939-10.712 14.545-13.681 22.818C63.485 47.904 62 59.941 62 75.74V102h42zm-62 0V59.727H22.114c0-5.871.689-11.182 2.068-15.933 1.379-4.75 3.42-9.287 6.125-13.61C33.01 25.86 36.909 22.257 42 19.375V0c-9.652 4.27-17.58 9.874-23.784 16.813C12.01 23.752 7.424 31.358 4.455 39.631 1.485 47.904 0 59.941 0 75.74V102h42z" fill=" rgba(19, 201, 170, 0.15)" fill-rule="nonzero"/></svg>
+                        <div class="azimut_header">
+                            <a href="https://azimutvision.ro/course/program-pregatire-front-end-developer-cluj-napoca-acreditat/" target="_blank"></a><img src="./images/logo-azimut.png" alt="Azimut Vision"></a>
+                            <div class="azimut_info">
+                                <div class="year">2020-2021 Cluj-Napoca - <a href="https://azimutvision.ro/course/program-pregatire-front-end-developer-cluj-napoca-acreditat/" target="_blank">Azimut Vision</a></div>
+                                <div class="job">FrontEnd Web Developer Course:</div>
+                                <div class="learned">HTML, CSS and JavaScript</div>
+                            </div>
                         </div>
                     </div>
                     <div class="testimonial">
                         <img class="cristina" src="./images/cristina.jpg" alt="Cristina Rodina - Trainer at Azimut Vision">
                         <h4>Cristina Rodina</h4>
                         <h5>Trainer at Azimut Vision</h5>
-                        <p>"I met Romeo a few months ago during my class of Frontend Developer.
+                        <p>"I've met Romeo a few months ago during my class of Frontend Developer.
                             During that time I watched him grow into an outstanding individual who excels in his professional skills.
-                            He proved himself to be a dependable person and a hard worker with solid problem solving and technical skills.
+                            <br>He proved himself to be a dependable person and a hard worker with solid problem solving and technical skills.
                             I was always impressed by his abilities to complete the work assigned to him on time, meet all the deadlines and also he has a good capability to explain his programs in a way that non-experts can easily understand.
-                            Romeo is dedicated to providing quality work. He checks and rechecks his software before turning it in for presentation to the client and I am confident that he can meet any challenges that will come on."</p>
+                            <br>Romeo is dedicated to providing quality work. He checks and rechecks his software before turning it in for presentation to the client and I am confident that he can meet any challenges that will come on."</p>
+                    </div>
+                </div>
+                <div class="hubspot">
+                    <div class="hubspot_header">
+                        <a href="https://academy.hubspot.com/courses/content-marketing?library=true" target="_blank"><img src="./images/HubSpot-logo.jpg" alt="Hubspot Academy"></a>
+                        <div class="hubspot_info">
+                            <div class="year">2020 - Online - <a href="https://academy.hubspot.com/courses/content-marketing?library=true" target="_blank">Content Marketing</a></div>
+                            <div class="learned">Content Marketing and Search Engine Optimization for Content</div>
+                        </div>
                     </div>
                 </div>
                 <div class="bachelor">
