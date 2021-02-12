@@ -3,8 +3,8 @@ function selectElementByClass(className) {
 }
 const sections = [
   selectElementByClass('home'),
-  selectElementByClass('about'),
-  selectElementByClass('skills'),
+  selectElementByClass('about_space'),
+  selectElementByClass('skills_space'),
   selectElementByClass('experience'),
   selectElementByClass('contact'),
 ];
