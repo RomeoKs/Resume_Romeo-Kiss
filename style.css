@@ -629,7 +629,7 @@ header {
 .work_grid {
     display: grid;
     grid-template-rows: auto;
-    row-gap: 53px;
+    row-gap: 55px;
 }
 
 .suprem img {
@@ -682,7 +682,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 16px;
 }
 .codi h4 {
     margin-bottom: 20px;
