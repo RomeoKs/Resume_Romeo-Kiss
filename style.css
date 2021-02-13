@@ -227,6 +227,7 @@ header {
     font-weight: bolder;
     border-radius: 0px 7px 7px 7px;
     width: fit-content;
+    -webkit-transform: translate(220px, 130px);
     transform: translate(220px, 130px);
     position: absolute;
 }
