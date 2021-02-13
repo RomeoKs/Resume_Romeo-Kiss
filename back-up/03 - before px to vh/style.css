@@ -4,23 +4,13 @@
     --purple: #6f42c1;
     --light-purple: #d7caf0;
     --pink: #e83e8c;
-    --red: #dc3545;
     --opaque-green: rgba(19, 201, 170, 0.3);
-    --orange: #fd7e14;
-    --yellow: #ffc107;
     --green: #0bceaf;
-    --teal: #20c997;
     --cyan: #17a2b8;
     --white: #fff;
     --gray-light: #d7d6da;
     --gray-medium: #a4a4a7;
     --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
     --light: #f8f9fa;
 }
 /* || CSS reset */
@@ -99,6 +89,11 @@ h5 {
     font-size: 1.1rem;
     letter-spacing: 1px;
 }
+/* 		===================
+			  DESKTOP2 1366px
+        ===================
+*/
+
 
 
 /* 		===================
@@ -153,7 +148,7 @@ header {
 	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
 }
 
-
+@media (min-width:1350px) {
 
 /* 		===================
 			  WHO
@@ -318,7 +313,7 @@ header {
 	width: 100%;
 }
 .ab_text {
-    margin-top: 20px;
+    margin-top: 39px;
 }
 
 .about a {
@@ -634,7 +629,7 @@ header {
 .work_grid {
     display: grid;
     grid-template-rows: auto;
-    row-gap: 53px;
+    row-gap: 55px;
 }
 
 .suprem img {
@@ -687,7 +682,7 @@ header {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 25px;
+    margin-top: 16px;
 }
 .codi h4 {
     margin-bottom: 20px;
@@ -823,13 +818,8 @@ footer {
     height: 100px;
     background-color: transparent;
 }
-
-/* 		===================
-			  DESKTOP2 1440px
-        ===================
-*/
-
-@media (min-width:1423px) {
-
-
 }
+
+
+
+ 
