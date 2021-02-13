@@ -70,23 +70,23 @@ h2, h3, h4, h5, h6 {
     text-align: center;
 }
 h1 {
-    font-size: 3.2rem;
+    font-size: 50px;
     font-weight: 700;
     margin-top: 27px;
 }
 h2 {
-    font-size: 2rem;
+    font-size: 32px;
 }
 h3 {
 	text-align: center;
-    font-size: 1.5rem;
+    font-size: 22px;
 }
 h4 {
-	font-size: 1.2rem;
+	font-size: 19px;
 	text-align: center;
 }
 h5 {
-    font-size: 1.1rem;
+    font-size: 17px;
     letter-spacing: 1px;
 }
 
@@ -192,7 +192,7 @@ header {
     position: relative;
 }
 .who h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 500;
     text-align: left;
 }
@@ -200,10 +200,10 @@ header {
     transform: translateY(-20px);
 	width: 310px;
 	border-radius: 50%;
-	border: 1.2rem solid rgba(0, 0, 0, 0.12);
-	-webkit-box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 0px 0px 1.2rem rgba(0, 0, 0, 0.05);
+	border: 19.2px solid rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0px 0px 0px 19.2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0px 0px 0px 19.2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 0px 19.2px rgba(0, 0, 0, 0.05);
 }
 
 .hello {
@@ -351,7 +351,7 @@ header {
 }
 .learn {
     text-align: center;
-    font-size: 1rem;
+    font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
     color: var(--gray-dark);
@@ -414,7 +414,7 @@ header {
 }
 
 .what li {
-	font-size: 1rem;
+	font-size: 16px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: var(--gray-dark);
@@ -424,7 +424,7 @@ header {
 }
 .what li:before {
     content: "\2022";
-    font-size: 1rem;
+    font-size: 16px;
     color: var(--green);
     font-weight: 900;
     display: inline-block;
@@ -451,7 +451,7 @@ header {
 
 .info {
     margin-bottom: 2px;
-    font-size: 1.2rem;
+    font-size: 19.2px;
     font-weight: 700;
     color: var(--gray-dark)
 }
@@ -738,24 +738,24 @@ header {
 input[type=text], input[type=email], 
 input[type=phone], textarea {
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     background-color: var(--white);
     width: 100%;
     border-radius: 1px;
     border: 1px solid var(--green);
 }
 textarea::placeholder {
-    font-size: 0.75rem;
-    padding: 0.5rem;
+    font-size: 12px;
+    padding: 6px;
     opacity: 0.5;
 }
 input[type=text], input[type=email], 
 input[type=phone] {
-    height: 2rem;
+    height: 32px;
 }
 label {
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 16px;
     color: var(--gray-dark);
     font-weight: 700;
 }
@@ -774,7 +774,7 @@ input[type=submit] {
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 16px;
 }
 input[type=submit]:hover {
     background-color: var(--green);
@@ -815,7 +815,7 @@ form {
 }
 .required {
     color: var(--pink);
-    font-size: 0.7rem;
+    font-size: 11.2px;
     text-align: right;
 }
 .req {
