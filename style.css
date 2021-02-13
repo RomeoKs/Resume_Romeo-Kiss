@@ -89,7 +89,12 @@ h5 {
     font-size: 1.1rem;
     letter-spacing: 1px;
 }
+/* 		===================
+			  DESKTOP2 1366px
+        ===================
+*/
 
+@media (min-width:1300px) {
 
 /* 		===================
 			  NAV MENU
@@ -813,13 +818,8 @@ footer {
     height: 100px;
     background-color: transparent;
 }
-
-/* 		===================
-			  DESKTOP2 1440px
-        ===================
-*/
-
-@media (min-width:1423px) {
-
-
 }
+
+
+
+ 
