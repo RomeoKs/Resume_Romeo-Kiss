@@ -189,6 +189,7 @@ header {
     align-items: center;
     display: grid;
     grid-template-rows: auto 5fr;
+    position: relative;
 }
 .who h2 {
     font-size: 1.5rem;
@@ -219,7 +220,17 @@ header {
 	font-family: 'Roboto', sans-serif;
 	color: white;
 }
-
+.junior {
+    font-size: 12px;
+    background-color: var(--green);
+    color: var(--white);
+    padding: 3px 6px 2px 6px;
+    font-weight: bolder;
+    border-radius: 0px 7px 7px 7px;
+    position: absolute;
+    left: 218px;
+    top: 130px;
+}
 .fas fa-envelope::before {
   content: "\f0e0";
   display: inline-block;
