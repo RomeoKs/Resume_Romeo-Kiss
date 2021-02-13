@@ -94,7 +94,7 @@ h5 {
         ===================
 */
 
-@media (min-width:1366px) {
+
 
 /* 		===================
 			  NAV MENU
@@ -148,7 +148,7 @@ header {
 	box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
 }
 
-
+@media (min-width:1350px) {
 
 /* 		===================
 			  WHO
