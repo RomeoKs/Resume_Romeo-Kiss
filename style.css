@@ -40,6 +40,9 @@ a {
     color: black;
     line-height: 0;
 }
+*, *:before, *:after {
+    box-sizing: border-box;
+}
 /* || General styles*/
 
 body {
@@ -143,10 +146,10 @@ header {
 }
 
 /* 		===================
-			  DESKTOP2 1366px
+			  DESKTOP 1440px
         ===================
 */
-@media (min-width:1350px) {
+@media (min-width:1439px) {
 
 /* 		===================
 			  WHO
@@ -197,7 +200,7 @@ header {
     text-align: left;
 }
 .me img {
-    transform: translateY(-20px);
+    transform: translateY(-2px);
 	width: 310px;
 	border-radius: 50%;
 	border: 1.2rem solid rgba(0, 0, 0, 0.12);
@@ -221,15 +224,16 @@ header {
 	color: white;
 }
 .junior {
-    font-size: 12px;
-    background-color: var(--pink);
+    font-size: 10px;
+    background-color: var(--purple);
     color: var(--white);
     padding: 3px 6px 2px 6px;
     font-weight: bolder;
     border-radius: 0px 7px 7px 7px;
     position: absolute;
-    left: 218px;
+    left: 220px;
     top: 130px;
+
 }
 .fas fa-envelope::before {
   content: "\f0e0";
@@ -322,7 +326,7 @@ header {
 	width: 100%;
 }
 .ab_text {
-    margin-top: 39px;
+    margin-top: 41px;
 }
 
 .about a {
@@ -356,8 +360,8 @@ header {
 	letter-spacing: 0.5px;
     color: var(--gray-dark);
     line-height: 1.5;
-    margin-bottom: 5px;
-    margin-top: 25px;
+    margin-bottom: 13px;
+    margin-top: 15px;
 }
 .learn span {
     text-decoration: underline;
@@ -396,12 +400,15 @@ header {
     margin-bottom: 40px;
 }
 .webdev, .seo {
-    padding: 25px 40px 40px 55px;
+    padding: 30px 45px 50px 73px;
     border-radius: 10px;
     background-color: white;
 	-webkit-box-shadow: 1px 2px 10px 4px rgba(112,112,112,1);
 	-moz-box-shadow: 1px 2px 10px 4px rgba(112,112,112,1);
 	box-shadow: 1px 2px 10px 4px rgba(112,112,112,0.3);
+}
+.webdev ul, .seo ul {
+    margin-top: 10px;
 }
 .webdev_title, .seo_title {
     display: flex;
@@ -545,7 +552,7 @@ header {
     padding-top: 20px;
 	-moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.2);
     box-shadow: 0px 10px 20px 4px #00000015;
-    margin-bottom: 45.5px;
+    margin-bottom: 30px;
 }
 .edu_header {
     background-color: var(--light);
@@ -558,7 +565,7 @@ header {
     gap: 20px;
     align-items: center;
     text-align: center;
-    margin-bottom: 45.5px;
+    margin-bottom: 30px;
 }
 .azimut_top {
     display: grid;
@@ -601,12 +608,13 @@ header {
 }
 .cristina h4 {
     margin-bottom: 0px;
-    font-size: 26px;
+    font-size: 22px;
 }
 .cristina h5 {
     margin-bottom: 0px;
     font-size: 14px;
     font-weight: 0;
+    color: black;
 }
 .testimonial_header {
     margin-left: 20px;
@@ -616,7 +624,7 @@ header {
     position: absolute;
     z-index: -1;
     top: -25px;
-    right: 10px;
+    right: 23px;
     opacity: 0.7;
 }
 /*.quote2 {
@@ -638,7 +646,7 @@ header {
 .work_grid {
     display: grid;
     grid-template-rows: auto;
-    row-gap: 55px;
+    row-gap: 30.5px;
 }
 
 .suprem img {
@@ -678,7 +686,7 @@ header {
     color: var(--green);
 }
 .codi img {
-    width: 100%;
+    height: 142px;
     border-radius: 10px;
     box-shadow: 0px 10px 20px 4px #00000015;
 }
@@ -686,27 +694,30 @@ header {
     transform: scale(1.1);
 }
 .codi {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-top: 16px;
+    margin-top: 30px;
 }
 .codi h4 {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-size: 26px;
     text-decoration: underline;
 }
 .codi h5 {
-    margin-bottom: 20px;
-    font-size: 14px;
+    margin-bottom: 23px;
+    font-size: 16px;
     font-weight: 0;
 }
 .codi_grid {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    gap:10%;
+    width: 538px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 /*.experience h3 {
     margin-bottom: 10%;
