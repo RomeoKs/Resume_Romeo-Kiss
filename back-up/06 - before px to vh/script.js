@@ -19,7 +19,7 @@ const navItems = {
 // intersection observer setup
 const observerOptions = {
   root: null,
-  rootMargin: '0px',
+  rootMargin: '10px',
   threshold: 0.1,
 };
 
