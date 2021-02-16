@@ -52,7 +52,7 @@ body {
     background: url("./images/background.png");
     background-repeat: repeat;
     mix-blend-mode: normal;
-    z-index: -1;
+    z-index: -2;
     position: absolute;
     left: 0;
     top: 0;
@@ -495,7 +495,7 @@ header {
         width: 100%;
         height: 10px;
         border-radius: 5px;
-        background-color: var(--secondary);
+        background-color: var(--gray-medium);
     }
     .sk_percent {
         position: absolute;
@@ -1199,7 +1199,7 @@ body {
 	width: 100%;
 	height: 10px;
 	border-radius: 5px;
-	background-color: var(--secondary);
+	background-color: var(--gray-medium);
 }
 .sk_percent {
 	position: absolute;
