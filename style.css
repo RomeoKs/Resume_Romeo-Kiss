@@ -816,6 +816,7 @@ header {
         width: 100%;
         border-radius: 1px;
         border: 1px solid var(--green);
+        padding: 0.6949vw;
     }
     textarea::placeholder {
         font-size: 0.8339vw;
@@ -1572,6 +1573,7 @@ input[type=phone], textarea {
     width: 100%;
     border-radius: 1px;
     border: 1px solid var(--green);
+    padding: 10px;
 }
 textarea::placeholder {
     font-size: 0.75rem;
@@ -1674,6 +1676,7 @@ h1 {
     font-size: 51px;
     font-weight: 700;
     margin-top: 27px;
+    color: var(--gray-dark);
 }
 h2 {
     font-size: 30px;
@@ -1690,8 +1693,20 @@ h5 {
     font-size: 12px;
     letter-spacing: 1px;
 }
+
 body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--gray-light);
     font-size: 12px;
+    background: url("./images/background-mob.png");
+    background-repeat: repeat;
+    mix-blend-mode: normal;
+    z-index: -2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
 /* 		===================
 			  NAV MENU
@@ -1777,7 +1792,7 @@ body {
 /* End of SPACES*/
 .col_left {
     width: 275px;
-    transform: translateX(13px);
+    transform: translate(13px, 400px);
 }
 .home-grid {
     width: 80%;
@@ -1798,15 +1813,16 @@ body {
     margin-top: 80px;
     width: 250px;
 	border-radius: 50%;
-	border: 15px solid rgba(0, 0, 0, 0.12);
-	-webkit-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.05);
+	border: 17px solid rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.05);
 }
 .col_right {
     width: 250px;
     margin: auto;
     margin-bottom: 80px;
+    transform: translateY(-300px);
 }
 .hello {
 	background-color: var(--green);
@@ -2195,6 +2211,7 @@ body {
 .p1 {
     font-weight: bold;
     line-height: 1.2;
+    text-align: center;
 }
 .p2 {
     font-size: 12px;
@@ -2205,7 +2222,7 @@ body {
 .cristina {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0px 10px 20px 10px;
 }
 .cristina h4 {
@@ -2214,9 +2231,9 @@ body {
 }
 .cristina h5 {
     margin-bottom: 0px;
-    font-size: 14px;
-    font-weight: 0;
+    font-size: 12px;
     color: black;
+    letter-spacing: -0.1px;
 }
 .testimonial_header {
     margin-left: 20px;
@@ -2278,10 +2295,12 @@ body {
 .year {
     font-weight: 600;
     margin-bottom: 5px;
+    letter-spacing: -0.2px;
 }
 .job {
     font-weight: 500;
     color: var(--gray-dark);
+    letter-spacing: -0.1px;
 }
 .department {
     color: var(--green);
@@ -2354,6 +2373,7 @@ input[type=phone], textarea {
     width: 100%;
     border-radius: 3px;
     border: 1px solid var(--green);
+    padding: 10px;
 }
 textarea::placeholder {
     font-size: 12px;
@@ -2397,7 +2417,7 @@ form {
     flex-direction: column;
 }
 .fname_contact, .lname_contact, .email_contact, .phone_contact, .message_contact {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .submit_message {
