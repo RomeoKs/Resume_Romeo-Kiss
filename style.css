@@ -129,7 +129,7 @@ h5 {
 	      MAX to DESKTOP 1440px
         ========================
 */
-@media and (min-width:381px) and (max-width:1439px) {
+@media only screen and (min-width: 381px) and (max-width:1439px) {
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--gray-light);
@@ -1715,36 +1715,38 @@ body {
     
 .navMenu li {
 	padding: 5px 30px 5px 30px; 
-	display: inline-block;
 	margin-top: 2.4%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
     font-size: 12px;
-    border-radius: 5px;
-    
+    border-radius: 5px; 
+}
+.navMenu ul {
+    display: flex;
 }
 .navMenu {
 	margin: auto;
-	width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 .navMenu a {
 	text-decoration: none;
-	color: var(--green);
+    color: var(--white);
+    text-transform: uppercase;
 }
 .navMenu a:active {
 	border-bottom: 2px solid var(--green);
 }
-.navMenu li:hover {
-	background-color: var(--gray-dark);
-	transition: 0.2s;
-}
+
 .active a{
 	border-bottom: 2px solid var(--green);
 }
 header {
-    width: 100%;
-	height: 80px;
-    background-color: var(--white);
+	height: 75px;
+    background-color: var(--gray-dark);
     opacity: 0.9;
 	border: none;
 	position: fixed;
