@@ -1799,6 +1799,7 @@ body {
     margin: auto;
 }
 .who {
+    
     align-items: center;
     display: grid;
     grid-template-rows: auto 5fr;
@@ -1936,7 +1937,6 @@ body {
 }
 .ab_image img{
 	width: 100%;
-    transform: translateX(-10px);
 }
 .ab_text {
     margin-top: 25px;
