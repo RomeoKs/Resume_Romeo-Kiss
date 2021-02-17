@@ -1680,7 +1680,7 @@ h2 {
 }
 h3 {
 	text-align: center;
-    font-size: 16px;
+    font-size: 20px;
 }
 h4 {
 	font-size: 13px;
@@ -1751,27 +1751,27 @@ body {
 }
 .home_space {
     width: 100%;
-    height: 150px;
+    height: 70px;
     background-color: transparent;
 }
 .about_space {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: transparent;
 }
 .skills_space {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: transparent;
 }
 .exp_space {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: transparent;
 }
 .contact_space {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: transparent;
 }
 /* End of SPACES*/
@@ -1790,7 +1790,7 @@ body {
     position: relative;
 }
 .who h2 {
-    font-size: 1.5rem;
+    font-size: 24px;
     font-weight: 500;
     text-align: left;
 }
@@ -1806,6 +1806,7 @@ body {
 .col_right {
     width: 250px;
     margin: auto;
+    margin-bottom: 80px;
 }
 .hello {
 	background-color: var(--green);
@@ -1919,9 +1920,10 @@ body {
 }
 .ab_image img{
 	width: 100%;
+    transform: translateX(-10px);
 }
 .ab_text {
-    margin-top: 41px;
+    margin-top: 25px;
 }
 
 .about a {
@@ -1990,6 +1992,15 @@ body {
 .what h2 {
     margin-bottom: 40px;
 }
+.webdev_title h3 {
+    margin-bottom: 12px;
+}
+.seo_title h3 {
+    margin-bottom: 0px;
+}
+.seo_title {
+    margin-top: 10px;
+}
 .webdev, .seo {
     padding: 10px 35px 30px 43px;
     border-radius: 10px;
@@ -1998,12 +2009,15 @@ body {
 	-moz-box-shadow: 1px 2px 10px 4px rgba(112,112,112,1);
 	box-shadow: 1px 2px 10px 4px rgba(112,112,112,0.3);
 }
+.seo {
+    margin-top: 30px;
+}
 .webdev ul, .seo ul {
     margin-top: 10px;
 }
 .webdev_title, .seo_title {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: flex-end;
 }
 .webdev img, .seo img {
@@ -2123,6 +2137,7 @@ body {
     color: var(--green);
 }
 .experience h2 {
+    margin-top: 60px;
     margin-bottom: 35px;
 }
 .education {
@@ -2231,8 +2246,9 @@ body {
     margin: auto;
 }
 .work_grid {
+    margin: auto;
     display: grid;
-    grid-template-columns: 304px;
+    grid-template-columns: 100%;
     grid-template-rows: 72px;
     row-gap: 30px;
 }
