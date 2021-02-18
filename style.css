@@ -1743,7 +1743,7 @@ body {
 header {
     width: 100%;
 	margin: auto;
-	height: 50px;
+	height: 60px;
     background-color: var(--gray-dark);
     opacity: 0.9;
 	border: none;
