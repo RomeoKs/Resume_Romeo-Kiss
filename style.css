@@ -840,7 +840,7 @@ header {
     
     input[type=submit] {
         width: 100%;
-        background-color: var(--gray-dark);
+        background-color: var(--green);
         border: none;
         color: white;
         padding:1.11188vw 2.2237vw;
@@ -851,7 +851,7 @@ header {
         font-size: 1.11188vw;
     }
     input[type=submit]:hover {
-        background-color: var(--green);
+        background-color: var(--gray-dark);
     }
     form {
         margin: auto;
@@ -1597,7 +1597,7 @@ input[type=phone]:focus, textarea:focus {
 
 input[type=submit] {
     width: 100%;
-    background-color: var(--gray-dark);
+    background-color: var(--green);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -1608,7 +1608,7 @@ input[type=submit] {
     font-size: 1rem;
 }
 input[type=submit]:hover {
-    background-color: var(--green);
+    background-color: var(--gray-dark);
 }
 form {
     margin: auto;
@@ -2369,7 +2369,7 @@ body {
 input[type=text], input[type=email], 
 input[type=phone], textarea {
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     background-color: var(--white);
     width: 100%;
     border-radius: 3px;
@@ -2383,7 +2383,7 @@ textarea::placeholder {
 }
 input[type=text], input[type=email], 
 input[type=phone] {
-    height: 32px;
+    height: 26px;
 }
 label {
     text-transform: uppercase;
@@ -2398,7 +2398,7 @@ input[type=phone]:focus, textarea:focus {
 
 input[type=submit] {
     width: 100%;
-    background-color: var(--gray-dark);
+    background-color: var(--green);
     border: none;
     color: white;
     padding: 16px 32px;
@@ -2409,7 +2409,7 @@ input[type=submit] {
     font-size: 1rem;
 }
 input[type=submit]:hover {
-    background-color: var(--green);
+    background-color: var(--gray-dark);
 }
 form {
     width: 100%;
@@ -2418,7 +2418,7 @@ form {
     flex-direction: column;
 }
 .fname_contact, .lname_contact, .email_contact, .phone_contact, .message_contact {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     width: 100%;
 }
 .submit_message {
