@@ -1912,6 +1912,7 @@ body {
 	color: var(--gray-dark);
     line-height: 1.2;
     text-align: center;
+    font-weight: 500;
 }
 .first_contact ul{
     display: grid;
