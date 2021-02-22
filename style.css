@@ -1878,7 +1878,8 @@ body {
 .fa-code {
 	background-color: white;
     border: none;
-    color: var(--green)
+    color: var(--green);
+    margin-bottom: 10px;
 }
 .fa-linkedin-in:hover {
 	background-color: var(--gray-dark);
@@ -1909,7 +1910,8 @@ body {
 }
 .first_social a{
 	color: var(--gray-dark);
-    
+    line-height: 1.2;
+    text-align: center;
 }
 .first_contact ul{
     display: grid;
@@ -1927,12 +1929,19 @@ body {
     font-weight: 500;
     margin-bottom: 20px;
 }
-/* .first_social_titles {
-    width: 100%;
+.first_social_titles {
+    width: 98%;
+    margin: auto;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-between;
-} */
+    font-size: 9px;
+    text-align: center;
+}
+.first_social_titles a {
+    line-height: 1.2;
+    
+}
 
 /* 		===================
 			ABOUT ME
