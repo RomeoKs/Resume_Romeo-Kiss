@@ -1793,7 +1793,7 @@ body {
 /* End of SPACES*/
 .col_left {
     width: 275px;
-    transform: translate(13px, 400px);
+    transform: translate(13px, 230px);
 }
 .home-grid {
     width: 80%;
@@ -1812,17 +1812,17 @@ body {
     text-align: left;
 }
 .me img {
-    margin-top: 80px;
-    width: 250px;
+    margin-top: 30px;
+    width: 150px;
 	border-radius: 50%;
-	border: 17px solid rgba(0, 0, 0, 0.12);
-	-webkit-box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 0px 0px 17px rgba(0, 0, 0, 0.05);
+	border: 10px solid rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.05);
 }
 .col_right {
-    width: 250px;
-    margin: auto;
+    width: 150px;
+    margin-left: 150px;
     margin-bottom: 80px;
     transform: translateY(-300px);
 }
@@ -1909,6 +1909,7 @@ body {
 }
 .first_social a{
 	color: var(--gray-dark);
+    
 }
 .first_contact ul{
     display: grid;
@@ -1916,7 +1917,6 @@ body {
     row-gap: 10px;
     padding-left: 10px;
     margin-bottom: 23px;
-
 }
 
 .first_contact a{
@@ -1927,6 +1927,12 @@ body {
     font-weight: 500;
     margin-bottom: 20px;
 }
+/* .first_social_titles {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+} */
 
 /* 		===================
 			ABOUT ME
