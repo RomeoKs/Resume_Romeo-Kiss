@@ -1822,9 +1822,9 @@ body {
 }
 .col_right {
     width: 150px;
-    margin-left: 150px;
+    margin-left: 130px;
     margin-bottom: 80px;
-    transform: translateY(-320px);
+    transform: translateY(-120px);
 }
 .hello {
 	background-color: var(--green);
