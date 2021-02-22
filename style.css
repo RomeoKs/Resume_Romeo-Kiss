@@ -1824,7 +1824,7 @@ body {
     width: 150px;
     margin-left: 150px;
     margin-bottom: 80px;
-    transform: translateY(-280px);
+    transform: translateY(-320px);
 }
 .hello {
 	background-color: var(--green);
