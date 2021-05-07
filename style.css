@@ -556,7 +556,7 @@ header {
         background-color: var(--green);
     }
     .percent_bar_js {
-        width: 10%;
+        width: 35%;
         height:0.695vw;
         border-radius: 0.347vw;
         background-color: var(--green);
@@ -1317,7 +1317,7 @@ body {
 	background-color: var(--green);
 }
 .percent_bar_js {
-	width: 10%;
+	width: 35%;
 	height: 10px;
 	border-radius: 5px;
 	background-color: var(--green);
@@ -1922,6 +1922,10 @@ body {
     line-height: 1.2;
     text-align: center;
     font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
 }
 .first_contact ul{
     display: grid;
@@ -2138,7 +2142,7 @@ body {
 	background-color: var(--green);
 }
 .percent_bar_js {
-	width: 10%;
+	width: 35%;
 	height: 2.63vw;
 	border-radius: 1.3157vw;
 	background-color: var(--green);
